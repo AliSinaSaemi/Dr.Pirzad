@@ -1,0 +1,6 @@
+1. home
+2. biography
+3. gallary
+4. video
+5. testimonial
+6. contancts
