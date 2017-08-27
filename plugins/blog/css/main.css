@@ -28,12 +28,6 @@ li {
   font-family: 'yekan';
 }
 
-html,
-body,
-.cssmenu {
-  height: 100%;
-}
-
 .text_bold,
 .yekanBold {
   font-weight: bold;
@@ -232,6 +226,7 @@ nav.navbar.navbar-inverse .attr-nav > ul > li > a {
 
 nav.navbar.bootsnav ul.nav > li > a {
   transition: .2s;
+  text-align: center;
 }
 
 nav.navbar.navbar-inverse .attr-nav > ul > li.dropdown ul.dropdown-menu {
@@ -339,22 +334,22 @@ ul.cart-list > li.total > .btn:focus {
   background-color: #dc3236 !important;
 }
 
-nav .brand-logo {
+nav .v-brand-logo {
   display: flex;
   flex-direction: row-reverse;
 }
 
-nav .brand-logo img {
+nav .v-brand-logo img {
   height: 50px;
 }
 
-nav .brand-logo h1 {
+nav .v-brand-logo h1 {
   margin-top: 0;
   margin-left: 10px;
   line-height: 43.5px;
 }
 
-nav .brand-logo h1 {
+nav .v-brand-logo h1 {
   color: #777
 }
 
@@ -365,6 +360,423 @@ nav .brand-logo h1 {
 
 ********************************/
 
+.v-main-banner {
+  background-image: url(../../img/bg/manager.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+  width: 100%;
+  height: 900px;
+}
+
+.v-main-banner span,
+.v-main-banner h2,
+.v-main-banner h3 {
+  color: #fff;
+}
+
+.v-main-banner span {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.v-upcoming-header h2,
+.v-mv-header h2,
+.v-main-banner h2 {
+  font-size: 40px;
+}
+
+.v-main-banner h3 {
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: lighter;
+}
+
+.v-banner-details {
+  margin-top: 250px;
+}
+
+.v-fondson {
+  font-family: 'yekan';
+  width: 180px;
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1.5px solid #f43438;
+  background-color: #f43438;
+  color: #fff;
+  transition: .5s;
+}
+
+.v-fondson:hover {
+  color: #f43438;
+  background-color: #fff;
+  border: 1.5px solid #f43438;
+}
+
+.v-donate-details {
+  padding: 140px;
+  text-align: center;
+}
+
+.v-newsletter-details h2,
+.v-our-team-details h2,
+.v-donate-details h2 {
+  font-size: 40px;
+  color: #293b52;
+}
+
+.v-our-team-details p,
+.v-donate-details p {
+  font-size: 18px;
+  color: #8a898b;
+  line-height: 35px;
+}
+
+.v-short-hr {
+  width: 60px;
+  border: 1.5px solid #f43438;
+}
+
+.v-donate-details ul {
+  padding: 15px;
+  margin-bottom: 40px;
+}
+
+.v-donate-details ul li {
+  font-size: 40px;
+  margin-left: 30px;
+  color: #293b52;
+}
+
+.v-donate-details ul li:last-child {
+  margin-left: 0;
+}
+
+.v-inspired {
+  background-image: url(../../img/bg/guy.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+  width: 100%;
+  height: 800px;
+}
+
+.v-inspired-details {
+  margin-top: 100px;
+}
+
+.v-inspired-details h2 {
+  font-size: 40px;
+  color: #293b52;
+}
+
+.v-inspired-details span {
+  font-size: 25px;
+  color: #f43438;
+  margin-bottom: 15px;
+}
+
+.v-inspired-details p {
+  font-size: 15px;
+  color: #293b52;
+  margin-top: 20px;
+  line-height: 35px;
+}
+
+.v-counting {
+  padding: 80px
+}
+
+.v-counting-img {
+  position: relative;
+}
+
+.v-counting-img img {
+  position: absolute;
+  left: 0
+}
+
+.v-counting-text p span {
+  color: #f43438;
+  font-size: 35px;
+}
+
+.v-counting-text p:first-child {
+  margin-bottom: 0
+}
+
+.v-lcn {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: #f4f4f4;
+}
+
+.v-lcn-title {
+  margin-bottom: 70px;
+}
+
+.v-lcn-title h2 {
+  font-size: 40px;
+  color: #293b52;
+  margin-bottom: 30px;
+}
+
+.v-lcn-title p {
+  font-size: 18px;
+  color: #8a898b;
+}
+
+.v-lcn .v-time {
+  display: flex;
+  padding: 10px 0 0 10px;
+}
+
+.v-lcn .v-time p {
+  margin: 0;
+  color: #8a898b;
+}
+
+.v-lcn .v-time i {
+  margin-left: 10px;
+  color: #f43438
+}
+
+.v-lcn .v-time p {
+  font-weight: bold;
+}
+
+.v-lcn-details p {
+  color: #8a898b;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.v-link-more {
+  color: #f43438;
+  font-size: 18px;
+  transition: .3s;
+}
+
+.v-link-more:focus,
+.v-link-more:hover {
+  color: #293b52;
+  text-decoration: none;
+}
+
+.v-link-h {
+  color: #293b52;
+  font-size: 30px;
+  transition: .5s;
+}
+
+.v-link-h:focus,
+.v-link-h:hover {
+  color: #f43438;
+  text-decoration: none;
+}
+
+.v-mv .row .col-md-6:last-child {
+  margin-top: 150px;
+}
+
+.v-mv-header p {
+  margin-bottom: 0;
+  font-size: 15px;
+  color: #f43438
+}
+
+.v-upcoming-header h2,
+.v-mv-header h2 {
+  margin-top: 0;
+  color: #293b52;
+}
+
+.v-mv-header hr {
+  text-align: right;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.v-mv-details p {
+  font-size: 25px;
+  color: #293b52;
+}
+
+.v-mv-details h6 {
+  color: #f43438
+}
+
+.v-upcoming {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 140px 0;
+}
+
+.v-upcoming-header p {
+  color: #f43438
+}
+
+.v-upcoming-details h6 {
+  font-size: 16px;
+  color: #8a898b;
+  padding: 20px 0;
+}
+
+.v-upcoming-details ul li {
+  margin-right: 20px;
+}
+
+.v-upcoming-details ul li p {
+  margin: 0;
+}
+
+.v-upcoming-details ul li:first-child {
+  margin-right: 0;
+}
+
+.v-upcoming-details ul li p:first-child span {
+  font-size: 40px;
+  color: #f43438
+}
+
+.v-upcoming-details ul li p:nth-child(2) span {
+  font-size: 20px;
+  color: #8a898b;
+  height: 20px;
+  position: relative;
+  bottom: 12px;
+}
+
+.v-our-team {
+  padding: 140px 0
+}
+
+.v-our-team-details {
+  text-align: center;
+}
+
+.v-our-team-details p {
+  padding: 0 100px
+}
+
+.v-our-team-details hr {
+  margin-bottom: 40px;
+}
+
+.v-our-team img {
+  margin-bottom: 15px;
+}
+
+.v-gallary-teamates p {
+  margin-top: 15px;
+}
+
+.v-newsletter {
+  background-color: #f4f4f4;
+  padding: 140px 0
+}
+
+.v-newsletter-input {
+  position: relative;
+}
+
+.v-newsletter-details p {
+  color: #8a898b;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.v-newsletter-input {
+  width: 450px;
+  display: block;
+  margin: 30px auto;
+}
+
+.v-newsletter-input input {
+  padding: 40px;
+  text-align: center;
+  border: none;
+}
+
+.v-newsletter-input input.form-control:focus {
+  border-color: none;
+  ;
+  outline: 0;
+  box-shadow: none;
+}
+
+.v-newsletter-input span {
+  position: absolute;
+  font-size: 13px;
+  top: 5px;
+  right: 10px;
+  color: #f43438;
+  opacity: 0;
+}
+
+
+/********************************
+
+            footer
+
+********************************/
+
+footer {
+  background-color: #191717;
+}
+
+.v-footer-details {
+  padding: 200px 0;
+}
+
+.v-brand-logo-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.v-brand-logo-footer img {
+  width: 50px;
+  height: 50px;
+}
+
+.v-brand-logo-footer h1 {
+  line-height: 11.5px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.v-social-media {
+  margin: 30px 0;
+}
+
+.v-social-media ul li {
+  font-size: 35px;
+  margin-left: 30px;
+}
+
+.v-social-media ul li:last-child {
+  margin-left: 0;
+}
+
+.v-social-media ul li a {
+  color: #ea5457;
+  transition: .5s;
+}
+
+.v-social-media ul li a:hover {
+  color: #fff;
+}
+
+.v-copyright p {
+  color: #8a898b
+}
+
 
 /********************************
 
@@ -373,11 +785,17 @@ nav .brand-logo h1 {
 ********************************/
 
 @media (max-width: 1023px) {
-  nav .brand-logo h1 {
+  nav .v-brand-logo h1 {
     line-height: 17.5px;
   }
-  nav .brand-logo img {
+  nav .v-brand-logo img {
     height: 28px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .v-counting {
+    padding: 30px;
   }
 }
 
@@ -499,6 +917,13 @@ nav .brand-logo h1 {
   .navbar {
     z-index: 2000;
   }
+  nav.navbar.bootsnav .navbar-nav > li > a {
+    border: none;
+  }
+  nav.navbar.bootsnav .navbar-nav {
+    display: flex;
+    flex-direction: column-reverse;
+  }
   nav.navbar .navbar-brand {
     margin-top: 0;
     position: relative;
@@ -562,17 +987,76 @@ nav .brand-logo h1 {
   nav.navbar.navbar-inverse.navbar-mobile .navbar-collapse {
     background-color: #222;
   }
-  nav .brand-logo {
+  nav .v-brand-logo {
     display: flex;
     flex-direction: row;
   }
-  nav .brand-logo h1 {
+  nav .v-brand-logo h1 {
     margin-right: 10px;
     font-size: 20px;
     line-height: 22.5px;
   }
   .navbar-brand {
     float: right;
+  }
+  .v-main-banner span {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  .v-mv-header h2,
+  .v-main-banner h2 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .v-main-banner h3 {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: lighter;
+  }
+  .v-inspired-details h2 {
+    font-size: 30px;
+  }
+  .v-counting {
+    padding: 25px;
+  }
+  .v-lcn {
+    text-align: center;
+  }
+  .v-lcn .row .col-sm-12 img {
+    display: block;
+    margin: 0 auto;
+  }
+  .v-lcn .v-time {
+    width: 125px;
+    margin: auto;
+  }
+  .v-lcn .row .col-sm-12 {
+    margin-top: 50px;
+  }
+  .v-mv-details p {
+    font-size: 18px;
+    color: #293b52;
+    line-height: 50px;
+  }
+  .v-mv .row .col-md-6:last-child {
+    margin-top: 80px;
+    line-height: 30px;
+  }
+  .v-gallary-teamates img {
+    display: block;
+    margin: auto;
+  }
+  .v-footer-details {
+    padding: 110px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .v-counting .row .col-md-4:last-child {
+    margin-top: 50px;
+  }
+  .v-gallary-teamates .col-sm-12 {
+    margin-top: 25px;
   }
 }
 
@@ -583,8 +1067,188 @@ nav .brand-logo h1 {
   }
 }
 
+@media (min-width: 768px) {
+  .navbar-header {
+    float: left;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-header {
+    float: left;
+  }
+  .v-main-banner {
+    background-attachment: fixed;
+    text-align: center;
+    height: 700px;
+  }
+  .v-banner-details {
+    margin-top: 120px;
+  }
+  .v-main-banner span {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  .v-main-banner h2 {
+    font-size: 25px;
+    padding: 0 50px
+  }
+  .v-main-banner h3 {
+    font-size: 13px;
+    padding: 0 50px
+  }
+  .v-fondson {
+    width: 140px;
+    padding: 15px;
+    font-size: 13px;
+  }
+  .v-our-team-details h2,
+  .v-donate-details h2 {
+    font-size: 25px;
+  }
+  .v-our-team-details p,
+  .v-donate-details p {
+    font-size: 14px;
+  }
+  .v-donate-details ul li {
+    font-size: 25px;
+    margin-left: 10px;
+  }
+  .v-donate-details {
+    padding: 140px 70px;
+  }
+  .v-inspired {
+    background-attachment: fixed;
+    height: 600px;
+    text-align: center;
+  }
+  .v-inspired-details {
+    margin-top: 0px;
+  }
+  .v-inspired-details h2 {
+    font-size: 25px;
+    padding: 0 50px;
+  }
+  .v-inspired-details span {
+    font-size: 18px;
+  }
+  .v-inspired-details p {
+    padding: 0 50px;
+  }
+  .v-counting .row .col-md-4 {
+    margin-top: 40px;
+  }
+  .v-counting .row .col-md-4:first-child {
+    margin-top: 0;
+  }
+  .v-lcn .row img {
+    display: block;
+    margin: 0 auto;
+  }
+  .v-lcn .row .col-sm-6 {
+    margin-top: 70px;
+  }
+  .v-lcn-title {
+    margin-bottom: 0px;
+  }
+  .v-mv {
+    text-align: center;
+  }
+  .v-mv-header hr {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .v-mv .row .col-md-6:last-child {
+    margin-top: 40px;
+    line-height: 30px;
+  }
+  .v-mv-details p {
+    padding: 0 80px;
+  }
+  .v-mv-details h6 {
+    color: #f43438;
+    font-size: 20px;
+  }
+  .v-gallary-teamates .col-xs-12 {
+    margin-top: 50px;
+  }
+  .v-gallary-teamates .col-xs-12:first-child {
+    margin-top: 0;
+  }
+  .v-newsletter-details p {
+    padding: 0 40px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .v-footer-details {
+    padding: 80px 0;
+  }
+}
+
 @media (max-width: 767px) {
   nav.navbar.navbar-inverse.navbar-mobile ul.nav {
     border-top: solid 1px #222;
+  }
+}
+
+@media (max-width: 500px) {
+  .v-inspired-details p {
+    padding: 0;
+  }
+  .v-inspired-details h2 {
+    font-size: 20px;
+    padding: 0;
+  }
+  .v-inspired-details h2 {
+    line-height: 35px;
+  }
+  .v-mv-details p {
+    line-height: 40px;
+    padding: 0;
+  }
+  .v-upcoming-details h6 {
+    line-height: 35px;
+  }
+  .v-upcoming-header h2 {
+    font-size: 30px;
+  }
+  .v-upcoming-details ul li {
+    margin-right: 10px;
+  }
+  .v-upcoming {
+    padding: 70px 0;
+  }
+  .v-newsletter-input {
+    width: 250px;
+  }
+  .v-newsletter-details h2 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 450px) {
+  .v-donate-details {
+    padding: 140px 0;
+  }
+  .v-donate-details ul li {
+    margin-left: 5px;
+  }
+  .v-inspired-details p {
+    font-size: 13px;
+    ;
+    margin-top: 15px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 430px) {
+  .v-mv-header h2,
+  .v-main-banner h2 {
+    font-size: 20px;
+    padding: 0
+  }
+  .v-main-banner h3 {
+    font-size: 13px;
+    padding: 0
   }
 }
