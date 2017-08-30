@@ -24,7 +24,8 @@ strong,
 em,
 i,
 b,
-li {
+li,
+textarea {
   direction: rtl;
   font-family: 'yekan';
 }
@@ -1097,6 +1098,89 @@ nav .v-brand-logo h1 {
   font-size: 40px;
 }
 
+.v-contact {
+  padding: 140px 0;
+  background-color: #f4f4f4
+}
+
+.v-contact .row {
+  margin-left: 0;
+}
+
+.v-contact form {
+  width: 800px;
+  display: block;
+  margin: auto;
+}
+
+.v-contact form input {
+  margin-bottom: 30px;
+  padding: 30px;
+  border-radius: 0;
+  border: 2px solid #fff;
+  box-shadow: none;
+}
+
+.v-contact textarea {
+  border-radius: 0;
+  border: 2px solid #fff;
+  box-shadow: none;
+  padding: 20px;
+}
+
+.v-contact form input,
+.v-contact form textarea {
+  font-size: 25px;
+}
+
+.v-contact textarea:focus,
+.v-contact form input:focus {
+  box-shadow: none;
+  border: 2px solid #f9ad40;
+}
+
+.v-contact form input:last-child {
+  margin-bottom: 0;
+}
+
+.v-contact h2.v-contact-request {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.v-contact form button {
+  margin-top: 40px;
+}
+
+.v-contact ul li {
+  display: flex;
+  direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.v-contact ul li:first-child {
+  margin-top: 15px;
+}
+
+.v-contact ul li i {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  color: #f9ad40;
+}
+
+.v-contact ul li p {
+  color: #858585;
+}
+
+.v-contact .v-short-hr {
+  width: 60px;
+  border: 1.5px solid #f9ad40;
+  margin-bottom: 30px;
+}
+
 
 /********************************
 
@@ -1442,6 +1526,15 @@ footer {
   .v-mg .col-xs-12:first-child .col-sm-12 {
     margin-bottom: 30px
   }
+  .v-contact form input,
+  .v-contact form textarea {
+    font-size: 20px;
+  }
+  .v-contact form {
+    width: 600px;
+    display: block;
+    margin: auto;
+}
 }
 
 @media (max-width: 767px) {
@@ -1718,11 +1811,10 @@ footer {
     font-size: 18px;
     line-height: 40px;
   }
-  
   .v-mg .row {
     padding: 65px 0;
   }
-    .v-gallary {
+  .v-gallary {
     padding: 70px 0;
   }
   .v-gallary-img {
@@ -1740,6 +1832,15 @@ footer {
   }
   .v-gallary .v-gallary-img:last-child {
     margin-bottom: 0;
+  }
+  .v-contact form {
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+    .v-contact form input,
+  .v-contact form textarea {
+    font-size: 15px;
   }
 }
 
@@ -1790,6 +1891,14 @@ footer {
   .v-all-banner-details h5 {
     font-size: 30px;
   }
+  .v-contact .row {
+    margin: 0;
+  }
+  .v-contact form {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
 }
 
 @media (max-width: 450px) {
@@ -1817,4 +1926,9 @@ footer {
     font-size: 13px;
     padding: 0
   }
+  .v-contact form {
+    width: 260px;
+    display: block;
+    margin: auto;
+}
 }
