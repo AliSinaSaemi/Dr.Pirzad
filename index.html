@@ -37,6 +37,29 @@
 
 <body>
 
+  <div class="upper-nav">
+    <div class="container-fluid">
+      <div class="col-md-3 col-sm-3 col-xs-12">
+        <span><i class="fa fa-phone"></i> +989119941033</span>
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-12">
+        <span><i class="fa fa-envelope"></i> sa.goldeneagle@gmail.com</span>
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-12">
+        <span><i class="fa fa-map-marker"></i> ایران، تهران، سعادت آباد</span>
+      </div>
+      <div class="col-md-3 col-sm-3 hidden-xs text-center">
+        <ul class="list-unstyled list-inline">
+          <li><i class="fa fa-facebook"></i></li>
+          <li><i class="fa fa-facebook"></i></li>
+          <li><i class="fa fa-facebook"></i></li>
+          <li><i class="fa fa-facebook"></i></li>
+          <li><i class="fa fa-facebook"></i></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
   <!-- Start Navigation -->
   <nav class="navbar navbar-default navbar-sticky navbar-scrollspy bootsnav" data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
 
@@ -96,6 +119,54 @@
     </div>
   </div>
 
+  <section class="rotating-slider hidden-xs">
+    <div class="rm_wrapper">
+      <div id="rm_container" class="rm_container">
+        <ul class="rotating-slider-list">
+          <li class="rotating-slider-1" data-images="rm_container_1" data-rotation="-15" data-transform="rotate(-15deg)" style="transform: rotate(-15deg);"><img src="plugins/rotating-slider/imgs/6.jpg" data-transform="rotate(0deg) origin(155px, 930px)" style="transform: rotate(0deg); transform-origin: 155px 930px 0px;"></li>
+          <li class="rotating-slider-2" data-images="rm_container_2" data-rotation="-5" data-transform="rotate(-5deg)" style="transform: rotate(-5deg);"><img src="plugins/rotating-slider/imgs/9.jpg" data-transform="rotate(0deg) origin(155px, 930px)" style="transform: rotate(0deg); transform-origin: 155px 930px 0px;"></li>
+          <li class="rotating-slider-3" data-images="rm_container_3" data-rotation="5" data-transform="rotate(5deg)" style="transform: rotate(5deg);"><img src="plugins/rotating-slider/imgs/12.jpg" data-transform="rotate(0deg) origin(155px, 930px)" style="transform: rotate(0deg); transform-origin: 155px 930px 0px;"></li>
+          <li class="rotating-slider-4" data-images="rm_container_4" data-rotation="15" data-transform="rotate(15deg)" style="transform: rotate(15deg);"><img src="plugins/rotating-slider/imgs/15.jpg" data-transform="rotate(0deg) origin(155px, 930px)" style="transform: rotate(0deg); transform-origin: 155px 930px 0px;"></li>
+        </ul>
+        <div id="rm_mask_left" class="rm_mask_left"></div>
+        <div id="rm_mask_right" class="rm_mask_right"></div>
+        <div id="rm_corner_left" class="rm_corner_left"></div>
+        <div id="rm_corner_right" class="rm_corner_right"></div>
+        <h2 class="rotating-slider-text">با ما محصر به فرد میشوید</h2>
+        <div style="display:none;">
+          <div id="rm_container_1">
+            <img src="plugins/rotating-slider/imgs/1.jpg">
+            <img src="plugins/rotating-slider/imgs/5.jpg">
+            <img src="plugins/rotating-slider/imgs/6.jpg">
+            <img src="plugins/rotating-slider/imgs/7.jpg">
+          </div>
+          <div id="rm_container_2">
+            <img src="plugins/rotating-slider/imgs/2.jpg">
+            <img src="plugins/rotating-slider/imgs/8.jpg">
+            <img src="plugins/rotating-slider/imgs/9.jpg">
+            <img src="plugins/rotating-slider/imgs/10.jpg">
+          </div>
+          <div id="rm_container_3">
+            <img src="plugins/rotating-slider/imgs/3.jpg">
+            <img src="plugins/rotating-slider/imgs/11.jpg">
+            <img src="plugins/rotating-slider/imgs/12.jpg">
+            <img src="plugins/rotating-slider/imgs/13.jpg">
+          </div>
+          <div id="rm_container_4">
+            <img src="plugins/rotating-slider/imgs/4.jpg">
+            <img src="plugins/rotating-slider/imgs/14.jpg">
+            <img src="plugins/rotating-slider/imgs/15.jpg">
+            <img src="plugins/rotating-slider/imgs/16.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="rm_nav">
+        <a id="rm_next" href="#" class="rm_next"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+        <a id="rm_prev" href="#" class="rm_prev"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </section>
+
   <div class="v-inspired">
     <div class="container">
       <div class="row">
@@ -112,7 +183,7 @@
   <div class="v-main-books">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 v-main-books-about-position">
+        <div class="hidden-sm hidden-xs col-md-4 v-main-books-about-position">
           <div class="v-main-books-about">
             <h2 class="heading-style-1">کمی گفت و گو با شما</h2>
             <hr class="v-link-h">
@@ -243,7 +314,7 @@
     </div>
   </div>
 
-  <div class="v-upcoming">
+  <div class="v-upcoming hidden-xs">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
@@ -252,26 +323,16 @@
             <h2 class="heading-style-2">تغییرات را حس کنید</h2>
             <hr class="v-short-hr">
           </div>
-          <div class="v-upcoming-details">
-            <h6>تنها به مدت زمان زیر فرصت دارید تا در همایش تغییر، اولین تقدیر ثبت نام کنید.</h6>
-            <ul class="list-unstyled list-inline">
-              <li>
-                <p><span>11</span></p>
-                <p><span>روز</span></p>
-              </li>
-              <li>
-                <p><span>11</span></p>
-                <p><span>روز</span></p>
-              </li>
-              <li>
-                <p><span>11</span></p>
-                <p><span>روز</span></p>
-              </li>
-              <li>
-                <p><span>11</span></p>
-                <p><span>روز</span></p>
-              </li>
-            </ul>
+        </div>
+        <div class="col-xs-12">
+          <div id="countdown">
+            <div id='tiles'></div>
+            <div class="labels">
+              <li>Days</li>
+              <li>Hours</li>
+              <li>Mins</li>
+              <li>Secs</li>
+            </div>
           </div>
         </div>
       </div>
@@ -436,22 +497,47 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="v-footer-details text-center">
-          <div class="v-brand-logo-footer">
-            <img src="plugins/img/brand/logo-white.png" class="logo" alt="">
-            <h1 class="heading-style-3">دکی جون</h1>
-          </div>
-          <div class="v-social-media">
-            <ul class="list-inline list-unstyled">
-              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
-            </ul>
-          </div>
-          <div class="v-copyright">
-            <p>هر گونه کپی برداری با پیگرد قانونی همراه است</p>
-            <p>طراح علی صائمی</p>
+        <div class="col-md-2 col-sm-12 col-xs-12 text-center">
+          <h2>خدمات</h2>
+          <ul class="list-unstyled">
+            <li><a class="text-orange" href=#><i class="fa fa-chevron-left"></i> کتاب ها</a></li>
+            <li><a class="text-orange" href=#><i class="fa fa-chevron-left"></i> رویاداد ها</a></li>
+            <li><a class="text-orange" href=#><i class="fa fa-chevron-left"></i> مقالات شخصی</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-12 col-xs-12 text-center">
+          <h2>برچسب ها</h2>
+          <a href="#" class="btn btn-outline btn-rect">کسب و کار</a>
+          <a href="#" class="btn btn-outline btn-rect">اقتصاد مقاومتی</a>
+          <a href="#" class="btn btn-outline btn-rect">سخنرانی</a>
+          <a href="#" class="btn btn-outline btn-rect">همایش</a>
+          <a href="#" class="btn btn-outline btn-rect">کتاب</a>
+          <a href="#" class="btn btn-outline btn-rect">برندینگ</a>
+        </div>
+        <div class="col-md-3 col-sm-12 col-xs-12 text-center">
+          <h2>اطلاعات تماس</h2>
+          <ul class="list-unstyled">
+            <li><i class="fa fa-phone"></i>+989119941033</li>
+            <li><i class="fa fa-envelope"></i>sa.goldeneagle@gmail.com</li>
+            <li><i class="fa fa-map-marker">ایران، تهران، سعادت آباد</i></li>
+            <div class="mt10">
+              <div class="row">
+                <a class="btn btn-round insta"><i class="fa fa-instagram"></i></a>
+                <a class="btn btn-round fb"><i class="fa fa-facebook"></i></a>
+                <a class="btn btn-round tele"><i class="fa fa-telegram"></i></a>
+                <a class="btn btn-round gp"><i class="fa fa-google-plus"></i></a>
+              </div>
+            </div>
+          </ul>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12 text-center">
+          <div id="map" class="map-design"></div>
+        </div>
+      </div>
+      <div style="margin-top: 80px">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p class="lead text-white">SAGE Team©2017. Privacy Policy</p>
           </div>
         </div>
       </div>
@@ -465,9 +551,49 @@
   <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
   <!-- Bootsnavs V -->
   <script src="plugins/bootsnav/js/bootsnav.js"></script>
+  <!-- Customize -->
+  <script src="plugins/blog/js/main.js"></script>
   <!-- Owl Carousel -->
   <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.min.js"></script>
 
+  <!-- Google map API -->
+  <script>
+    // This example displays a map with the language set to Arabic and the
+    // regions set to Egypt. These settings are specified in the HTML script
+    // element when loading the Google Maps JavaScript API.
+    // Setting the language shows the map in the language of your choice.
+    // Setting the region biases the geocoding results to that region.
+    // In addition, the page's html element sets the text direction to
+    // right-to-left.
+    function initMap() {
+      var cairo = {
+        lat: 30.064742,
+        lng: 31.249509
+      };
+
+      var map = new google.maps.Map(document.getElementById('map'), {
+        scaleControl: true,
+        center: cairo,
+        zoom: 10
+      });
+
+      var infowindow = new google.maps.InfoWindow;
+      infowindow.setContent('<b>تهران</b>');
+
+      var marker = new google.maps.Marker({
+        map: map,
+        position: cairo
+      });
+      marker.addListener('click', function () {
+        infowindow.open(map, marker);
+      });
+    }
+  </script>
+
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjVUHkMYr3EXH4IHg_wiw_eW-Bok1dF_E&callback=initMap" async defer></script>
+
+  <!-- Owl carousel Setting -->
   <script>
     var owl = $('.owl-carousel');
     owl.on('initialize.owl.carousel initialized.owl.carousel ' +
@@ -507,6 +633,23 @@
       }
     })
   </script>
+
+  <script>
+    function myMap() {
+      var mapCanvas = document.getElementById("map");
+      var mapOptions = {
+        center: new google.maps.LatLng(51.5, -0.2),
+        zoom: 10
+      };
+      var map = new google.maps.Map(mapCanvas, mapOptions);
+    }
+  </script>
+
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+  <script src="plugins/rotating-slider/js/jquery.transform-0.9.3.min_.js"></script>
+  <script src="plugins/rotating-slider/js/jquery.mousewheel.js"></script>
+  <script src="plugins/rotating-slider/js/jquery.RotateImageMenu.js"></script>
 
 </body>
 
