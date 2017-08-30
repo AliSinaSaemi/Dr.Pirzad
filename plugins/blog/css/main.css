@@ -1181,6 +1181,51 @@ nav .v-brand-logo h1 {
   margin-bottom: 30px;
 }
 
+.v-list-blackqutes {
+  padding: 140px 0;
+}
+
+.v-blackqute-icon {
+  position: relative;
+}
+
+.v-blackqute-icon i {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  font-size: 50px;
+  color: #f9ad40;
+}
+
+.v-qute {
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.v-qute-writer {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #888;
+}
+
+.v-qute-hr {
+    width: 90%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #999, rgba(0, 0, 0, 0));
+    margin: 0 auto;
+  height: 2px;
+}
+
+.v-list-blackqutes .v-qute-box {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.v-list-blackqutes .v-qute-box:first-child {
+  margin-top: 0;
+}
+
+.v-list-blackqutes .v-qute-box:last-child {
+  margin-bottom: 0;
+}
 
 /********************************
 
@@ -1535,6 +1580,10 @@ footer {
     display: block;
     margin: auto;
 }
+  .v-qute {
+    font-size: 15px;
+    line-height: 40px;
+}
 }
 
 @media (max-width: 767px) {
@@ -1842,6 +1891,9 @@ footer {
   .v-contact form textarea {
     font-size: 15px;
   }
+  .v-blackqute-icon i {
+  position: static;
+}
 }
 
 @media (max-width: 767px) {
