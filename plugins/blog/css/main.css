@@ -1553,6 +1553,329 @@ nav .v-brand-logo h1 {
   display: inline-block;
 }
 
+.v-advisers,
+.v-advisers-list {
+  padding: 120px 0;
+}
+
+.v-adviser-details {
+  padding: 20px;
+  border: 1px #cdcdcd solid;
+  position: relative;
+  border-radius: 4px;
+}
+
+.v-advisers img {
+  width: 180px;
+  margin-bottom: 50px;
+}
+
+.v-adviser-details blockquote {
+  position: relative;
+  border-right: none;
+  background-image: url(../../img/bg/quotation-mark-light.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.v-adviser-docs a {
+  color: #000;
+  font-size: 20px;
+}
+
+.v-adviser-docs a h1 {
+  margin: 0;
+}
+
+.v-adviser-docs p {
+  color: #000;
+}
+
+.v-m-t-1 {
+  margin-top: 20px;
+}
+
+.gallary-left {
+  margin-top: 20px;
+}
+
+.thumbnail {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin-bottom: 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #040c0e;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.caption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: 'yekan';
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+  text-align: right;
+  color: #fff !important;
+  z-index: 2;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.thumbnail .caption {
+  padding: 20px;
+}
+
+.caption h4 {
+  font-size: 25px;
+  position: relative;
+}
+
+.caption h4:after {
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  content: '';
+  transition: transform 0.35s;
+  transform: translate3d(120%, 0, 0);
+}
+
+.thumbnail-content {
+  opacity: 0;
+  transition: .35s;
+  margin-top: 80px;
+}
+
+.caption p {
+  font-size: 15px;
+}
+
+.thumbnail img {
+  opacity: .6;
+  transform: scale(1, 1);
+  transition: .35s;
+  position: relative;
+}
+
+.thumbnail:hover {
+  box-shadow: 0 1px 15px #040c0e;
+  border-radius: 5px;
+}
+
+.thumbnail:hover .caption h4:after {
+  transform: translate3d(0, 0, 0);
+}
+
+.thumbnail:hover .thumbnail-content {
+  opacity: 1;
+  margin-top: 40px;
+}
+
+.thumbnail:hover img {
+  opacity: .4;
+  transform: scale(1.2, 1.2);
+}
+
+.fancy-collapse-panel .panel-default > .panel-heading {
+  padding: 0;
+}
+
+.fancy-collapse-panel .panel-default .panel-heading a {
+  padding: 25px;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  text-decoration: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.fancy-collapse-panel .panel-default .panel-heading a:after {
+  font-family: "FontAwesome";
+  content: "\f147";
+  position: absolute;
+  left: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  top: 50%;
+  line-height: 1;
+  margin-top: -10px;
+}
+
+.fancy-collapse-panel .panel-default .panel-heading a.collapsed:after {
+  content: "\f196";
+}
+
+tr.filters h5 {
+  margin: 0;
+}
+
+.fix-position {
+  margin-top: 50px;
+}
+
+#table div.panel-primary {
+  border: none;
+  border-radius: 0;
+}
+
+.panel-title {
+  text-align: right;
+}
+
+.panel-title p {
+  margin-right: 27px;
+  margin-top: 0;
+  padding: 0;
+}
+
+.wrap {
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+a:focus,
+a:hover,
+a:active {
+  outline: 0;
+  text-decoration: none;
+}
+
+.panel {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  background: none;
+  box-shadow: none;
+}
+
+.panel:last-child {
+  border-bottom: none;
+}
+
+.panel-group > .panel:first-child .panel-heading {
+  border-radius: 4px 4px 0 0;
+}
+
+.panel-group .panel {
+  border-radius: 0;
+}
+
+.panel-group .panel + .panel {
+  margin-top: 0;
+}
+
+.panel-heading {
+  border-radius: 0;
+  border: none;
+  padding: 0;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.panel-title a {
+  display: block;
+  padding: 15px;
+  position: relative;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.panel:last-child .panel-body {
+  border-radius: 0 0 4px 4px;
+}
+
+.panel:last-child .panel-heading {
+  border-radius: 0 0 4px 4px;
+  -webkit-transition: border-radius 0.3s linear 0.2s;
+  transition: border-radius 0.3s linear 0.2s;
+}
+
+.panel:last-child .panel-heading .active {
+  border-radius: 0;
+  -webkit-transition: border-radius linear 0s;
+  transition: border-radius linear 0s;
+}
+
+
+/* #bs-collapse icon scale option */
+
+#bs-collapse .panel-heading-2 a:before {
+  font-family: 'FontAwesome';
+  content: '\f062';
+  position: absolute;
+  font-family: 'FontAwesome';
+  right: 10px;
+  top: 18px;
+  font-size: 24px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+#bs-collapse .panel-heading-2 a:after {
+  content: ' ';
+  font-size: 24px;
+  position: absolute;
+  font-family: 'FontAwesome';
+  right: 10px;
+  top: 18px;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#bs-collapse .panel-heading-2.active a:before {
+  content: ' ';
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+#bs-collapse .panel-heading-2.active a:after {
+  font-family: 'FontAwesome';
+  content: '\f063';
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+
+/* #accordion rotate icon option */
+
+#accordion .panel-heading-2 a:before {
+  content: '\f062';
+  font-size: 24px;
+  position: absolute;
+  font-family: 'FontAwesome';
+  right: 5px;
+  top: 10px;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#accordion .panel-heading-2 .panel-heading-2.active a:before {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
 
 /********************************
 
@@ -2027,6 +2350,20 @@ a.btn-outline:hover {
   .v-main-books-details button {
     opacity: 1;
   }
+  .caption h4 {
+    font-size: 27px;
+    position: relative;
+  }
+  .caption h4:after {
+    transform: translate3d(0, 0, 0);
+  }
+  .thumbnail .thumbnail-content {
+    opacity: 1;
+    margin-top: 40px;
+  }
+  .caption p {
+    font-size: 17px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -2337,6 +2674,13 @@ a.btn-outline:hover {
   .v-blackqute-icon i {
     position: static;
   }
+  .caption p {
+    font-size: 20px;
+  }
+  .caption h4 {
+    font-size: 35px;
+    position: relative;
+  }
 }
 
 @media (max-width: 767px) {
@@ -2393,6 +2737,16 @@ a.btn-outline:hover {
     width: 300px;
     display: block;
     margin: auto;
+  }
+  .thumbnail .caption {
+    padding: 30px;
+  }
+  .caption h4 {
+    font-size: 30px;
+    position: relative;
+  }
+  .caption p {
+    font-size: 16px;
   }
 }
 

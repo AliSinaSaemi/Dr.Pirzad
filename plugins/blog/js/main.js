@@ -44,3 +44,20 @@ function getCountdown(){
 function pad(n) {
 	return (n < 10 ? '0' : '') + n;
 }
+
+
+/*=======================
+
+      accordion
+ 
+=======================*/
+$(document).ready(function () {
+  $('.collapse.in').prev('.panel-heading-2').addClass('active');
+  $('#accordion, #bs-collapse')
+    .on('show.bs.collapse', function (a) {
+      $(a.target).prev('.panel-heading-2').addClass('active');
+    })
+    .on('hide.bs.collapse', function (a) {
+      $(a.target).prev('.panel-heading-2').removeClass('active');
+    });
+});
